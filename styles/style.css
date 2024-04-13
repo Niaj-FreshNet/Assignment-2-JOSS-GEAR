@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    /* text-align: center; */
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    /* text-align: center; */
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: 800;
+    /* text-align: center; */
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5A5A5D;
+}
+
+.btn-primary {
+    margin-top: 20px;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 13px 15px;
+    color: #fff;
+    background-color: #FF5400;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    /* margin-top: 24px */
+}
+
+body {
+    text-align: center;
+    margin: auto 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 80px;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-title>img,
+.footer-title>img {
+    width: 72px;
+    height: 56.008px;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 44px;
+}
+
+nav li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.hamburger {
+    display: none;
+}
+
+.banner {
+    display: flex;
+    color: #fff;
+    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+    /* background-size: 500px 1000px; */
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner p {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+}
+
+.find-now-container {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.find-now-container>input {
+    width: 174px;
+    /* height: 52px; */
+    padding: 5px 30px 6px 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+#find-now {
+    color: #fff;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 8px;
+}
+
+/* section style  */
+section {
+    width: 98%;
+    margin-top: 100px;
+}
+
+.popular-tours {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+
+}
+
+.popular-tours-content {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding-left: 24px;
+}
+
+.popular-tours-content li {
+    margin-top: 24px;
+}
+
+.popular-tours-content p {
+    margin-top: 36px;
+    margin-bottom: 24px;
+}
+
+.popular-tours-img {
+    width: 540px;
+    height: 550px;
+}
+
+.destination-img-container {
+    margin-top: 48px;
+}
+
+.destination-img-container img {
+    padding: 5px;
+}
+
+.choosing-card-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-left: 48px;
+    margin-top: 48px;
+}
+
+.card {
+    width: 500px;
+    text-align: left;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin: 16px;
+    padding: 24px
+}
+
+.deal>p {
+    margin-bottom: 48px;
+}
+
+.deal-card-container-1 {
+    padding: 56px 56px 56px 550px;
+    width: 650px;
+    height: 415px;
+    border-radius: 16px;
+    background: url(/Images/Group\ 39.png) lightgray 50% / cover no-repeat;
+}
+
+.deal-card-container-2 {
+    padding: 56px 550px 56px 56px;
+    margin: 24px auto;
+    width: 649px;
+    height: 424px;
+    border-radius: 16px;
+    background: url(/Images/Group\ 40.png) lightgray 50% / cover no-repeat;
+}
+
+.deal .card {
+    height: 389px;
+    padding: 0px 48px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+
+    background: rgba(255, 255, 255, 0.80);
+
+    backdrop-filter: blur(2.5px);
+}
+
+.card-topbar {
+    display: flex;
+    gap: 40px;
+}
+
+.price-tag {
+    color: #FF5400;
+}
+
+video {
+    border-radius: 16px;
+}
+
+.newsletter {
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+
+.newsletter-content {
+    text-align: left;
+    gap: 24px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+
+}
+
+.newsletter hr {
+    color: rgba(19, 19, 24, 0.10);
+    width: 98%;
+}
+
+.newsletter-content #text {
+
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 12px 150px 12px 14px;
+    margin: 14px auto;
+}
+
+.newsletter-content #subscribe {
+    width: 100%;
+    height: 52px;
+    color: #FFF;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 14px auto;
+    cursor: pointer;
+}
+
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px 250px 20px 250px;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 14px;
+}
+
+footer>p {
+    display: flex;
+    justify-content: center;
+}
+
+footer hr {
+    color: rgba(19, 19, 24, 0.10);
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* mobile devices */
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0 20px;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+
+    nav {
+        display: flex;
+        gap: 150px;
+        justify-content: space-between;
+        margin: 0 0;
+        padding: 5px 10px;
+    }
+
+    nav>ul {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .banner p {
+
+        margin: auto 10px;
+    }
+
+    .find-now-container {
+        height: 230px;
+        flex-direction: column;
+        align-items: center;
+    }
+    section{
+        flex-direction: column;
+        margin-top: 24px;
+    }
+    .popular-tours-content{
+        padding-left: 0;
+    }
+    .popular-tours-img{
+        max-width: 70%;
+    }
+    .destination-img-container{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .choosing-card-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+        padding: 32px;
+        margin: 16px;
+    }
+    .deal-card-container{
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+    .deal-card-container-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 335px;
+        padding: 40px 8px;
+    }
+    .deal-card-container-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 335px;
+        padding: 40px 8px;
+    }
+    .deal-card-container .card{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 16px auto;
+        background-size: contain;
+        padding: 24px 8px 8px 8px;
+    }
+    .btn-primary{
+        margin-top: 5px;
+    }
+    .video{
+        display: none;
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    .newsletter-content #text{
+        padding: 12px 55px 12px 14px;
+    }
+    .newsletter-img{
+        display: none;
+        width: 335px;
+    }
+    footer{
+        padding: 30px 40px;
+    }
+}
