@@ -395,6 +395,9 @@ footer hr {
         background-size: contain;
         padding: 24px 8px 8px 8px;
     }
+    .deal .btn-primary{
+        display: none;
+    }
     .btn-primary{
         margin-top: 5px;
     }
